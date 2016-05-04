@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="productcommunity.comments.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.41" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:autoText="true"
+        android:backgroundTint="#ffcb20"
+        android:backgroundTintMode="src_in"
+        android:breakStrategy="high_quality"
+        android:capitalize="words"
+        android:clickable="true"
+        android:contextClickable="false"
+        android:drawableTop="#ffb404"
+        android:drawingCacheQuality="auto"
+        android:editable="true"
+        android:foregroundTint="#ffb700"
+        android:hint="Введите свой запрос"
+        android:inputType="textAutoCorrect|text"
+        android:shadowColor="#022930"
+        android:textAlignment="center"
+        android:textColor="#049dc4"
+        android:textSize="20dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:layout_weight="0.46" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:background="#46aedb"
+        android:clickable="true"
+        android:text="@string/button"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>

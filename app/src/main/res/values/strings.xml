@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">comments</string>
+    <string name="main_scr">logo</string>
+    <string name="button">Поиск</string>
+</resources>
